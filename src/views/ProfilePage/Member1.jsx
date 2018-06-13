@@ -5,8 +5,6 @@ import classNames from "classnames";
 import withStyles from "material-ui/styles/withStyles";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
-import Photo from "@material-ui/icons/Photo";
-import Favorite from "@material-ui/icons/Favorite";
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -17,18 +15,13 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/new/faces/avatar.jpg";
+import profile from "assets/img/new/Member1/Profilbild.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import image1 from "assets/img/new/Member1/Bild1.jpeg";
+import image2 from "assets/img/new/Member1/Bild2.JPG";
+import image3 from "assets/img/new/Member1/Bild3.jpg";
+import image4 from "assets/img/new/Member1/Bild4.jpg";
+
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -45,7 +38,7 @@ class Member1 extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="ProfileLotte"
+          brand=""
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -70,23 +63,16 @@ class Member1 extends React.Component {
                       <IconButton
                         color="transparent"
                         className={classes.margin5}
-                        href="https://www.twitter.com"
+                        href="https://twitter.com/lottihase"
                       >
                         <i className={classes.socials + " fab fa-twitter"} />
                       </IconButton>
                       <IconButton
                         color="transparent"
                         className={classes.margin5}
-                        href="https://www.instagram.com"
+                        href="https://www.instagram.com/lottihase/"
                       >
                         <i className={classes.socials + " fab fa-instagram"} />
-                      </IconButton>
-                      <IconButton
-                        color="transparent"
-                        className={classes.margin5}
-                        href="https://www.facebook.com"
-                      >
-                        <i className={classes.socials + " fab fa-facebook"} />
                       </IconButton>
                     </div>
                   </div>
@@ -94,10 +80,10 @@ class Member1 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                  It is a long established fact that a reader will be distracted by the readable 
+                  content of a page when looking at its layout. The point of using Lorem Ipsum is 
+                  that it has a more-or-less normal distribution of letters, as opposed to using 
+                  'Content here, content here', making it look like readable English.{" "}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -107,74 +93,39 @@ class Member1 extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: "Proberaum",
+                        tabButton: "Bilder",
                         tabIcon: Camera,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={studio1}
+                                src={image1}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio2}
+                                src={image2}
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src={image4}
                                 className={navImageClasses}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={studio5}
+                                src={image3}
                                 className={navImageClasses}
                               />
-                              <img
-                                alt="..."
-                                src={studio4}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      },
-                      {
-                        tabButton: "Live",
-                        tabIcon: Photo,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work2}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work3}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work4}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work5}
-                                className={navImageClasses}
-                              />
+                              
                             </GridItem>
                           </GridContainer>
                         )
                       }
+                      
                       
                     ]}
                   />
