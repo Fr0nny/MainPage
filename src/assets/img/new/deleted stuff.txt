@@ -1,0 +1,11 @@
+//component jsx
+
+<SectionBasics />
+          <SectionNavbars />
+          <SectionTabs />
+          <SectionPills />
+          <SectionNotifications />
+          <SectionTypography />
+          <SectionJavascript />
+          <SectionCompletedExamples />
+          <SectionLogin />
