@@ -4,11 +4,6 @@ import classNames from "classnames";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
 
-
-
-// @material-ui/icons
-// import Favorite from "@material-ui/icons/Favorite";
-
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
