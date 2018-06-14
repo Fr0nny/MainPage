@@ -1,6 +1,6 @@
 import Components from "views/Components/Components.jsx";
 import LandingPage from "views/LandingPage/LandingPage.jsx";
-import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
+// import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 import Member1 from "views/ProfilePage/Member1.jsx";
 import Member2 from "views/ProfilePage/Member2.jsx";
 import Member3 from "views/ProfilePage/Member3.jsx";
