@@ -38,6 +38,7 @@ class Datenschutz extends React.Component {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
+              <div style={{textAlign: "justify"}}>
               <h1 className={classes.title}>Datenschutz</h1><br />
 
                 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder Email-Adressen) 
@@ -90,10 +91,11 @@ class Datenschutz extends React.Component {
                 Fälle oder generell auszuschließen sowie das automatische Löschen der Cookies beim Schließen des Browser aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität 
                 dieser Website eingeschränkt sein.
               <br /><br /><br />
-
+              </div>
             </GridItem>
           </GridContainer>
         </div>
+        
 
      
       <Footer />

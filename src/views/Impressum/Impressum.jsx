@@ -37,7 +37,7 @@ class Impressum extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={12}>
                 <h3>
-                  <div class='impressum'><h1>Impressum</h1>
+                  <div class='impressum' style={{textAlign: "justify"}} ><h1>Impressum</h1>
                     <p>Angaben gemäß § 5 TMG</p>
                     <p>
                       <strong>Vertreten durch: </strong><br />
