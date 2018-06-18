@@ -12,7 +12,8 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
 
-import Form from "views/LandingPage/Sections/Form.jsx";
+// import Form from "views/LandingPage/Sections/Form.jsx";
+import ContactForm from "components/Form/ContactForm.jsx";
 
 class WorkSection extends React.Component {
   render() {
@@ -76,14 +77,7 @@ class WorkSection extends React.Component {
                 </GridContainer>
               </GridContainer>
             </form>
-            <form action="https://formspree.io/fronnythedev@gmail.com"
-              method="POST">
-            <input type="text" name="name" />
-            <input type="email" name="_replyto" />
-            <input type="submit" value="Send" />
-            </form>
-
-
+            <ContactForm />
           </GridItem>
         </GridContainer>
       </div>

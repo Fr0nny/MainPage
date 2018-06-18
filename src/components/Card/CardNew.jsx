@@ -1,13 +1,13 @@
 import React from 'react';
-import Card from 'components/Card/Card.jsx';
-import CardBody from 'components/Card/CardBody.jsx';
-import CardHeader from 'components/Card/CardHeader.jsx';
+/*import Card from 'components/Card/Card.jsx';*/
+/*import CardBody from 'components/Card/CardBody.jsx';
+import CardHeader from 'components/Card/CardHeader.jsx';*/
 // import CardFooter from 'components/Card/CardFooter.jsx';
 import image1 from "assets/img/new/Triggered_Gruppe2.jpg";
-import withStyles from "material-ui/styles/withStyles";
+// import withStyles from "material-ui/styles/withStyles";
 
 
-import cardStyle from "assets/jss/material-kit-react/components/cardStyle.jsx";
+// import cardStyle from "assets/jss/material-kit-react/components/cardStyle.jsx";
 
 const CardNew = () => {
   return (
