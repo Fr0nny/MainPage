@@ -30,13 +30,14 @@ class WorkSection extends React.Component {
               printer took a galley of type and scrambled it to make a type 
               specimen book.
             </h4>
-            <form>
+            <form method="Post" action="send">
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
                     labelText="Dein Name"
                     id="name"
-                    name="userName"
+                    name="name"
+                    type="text"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -47,6 +48,7 @@ class WorkSection extends React.Component {
                     labelText="Email Adresse"
                     id="email"
                     name="email"
+                    type="email"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -72,7 +74,7 @@ class WorkSection extends React.Component {
                     md={4}
                     className={classes.textCenter}
                   >
-                    <Button color="primary">Senden</Button>
+                    <Button type="submit" color="primary">Senden</Button>
                   </GridItem>
                 </GridContainer>
               </GridContainer>

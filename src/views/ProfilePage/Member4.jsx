@@ -65,7 +65,7 @@ class Member4 extends React.Component {
                       <img src={profile} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 className={classes.title}>Ilja Gordijenko</h3>
+                      <h3 className={classes.title}>Ilja</h3>
                       <h6>Bass</h6>
                       <IconButton
                         color="transparent"

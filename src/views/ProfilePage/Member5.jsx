@@ -55,7 +55,7 @@ class Member5 extends React.Component {
                       <img src={profile} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 className={classes.title}>Christopher Fronober</h3>
+                      <h3 className={classes.title}>Chris</h3>
                       <h6>Schlagzeug</h6>
                       <IconButton
                         color="transparent"
