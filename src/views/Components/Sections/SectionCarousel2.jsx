@@ -84,6 +84,20 @@ class SectionCarousel2 extends React.Component {
               </Card>
             </GridItem>
           </GridContainer>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={10} className={classes.marginAuto}>
+              <Card>
+                <div className={classes.typo}>
+                  <h3>Bisherige Auftirtte:</h3>
+                  <ul>
+                    <li>Kulturcafé (QKaff) - Mainz - 18.12.2017</li>
+                    <li>Alexander The Great (ATG) - Mainz - 17.03.2018</li>
+                    <li>BURR Open Air - Mörschied - 01.06.2018</li>
+                  </ul>
+                </div>
+              </Card>
+            </GridItem>
+          </GridContainer>
         </div>
       </div>
     );

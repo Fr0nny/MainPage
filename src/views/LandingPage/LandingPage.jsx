@@ -43,7 +43,7 @@ class Contact extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Bock auf mehr?!</h1>
                 <h3>
-                  Ihr wollt uns auf eurer Feier/Konzert/Festival? Schriebt uns eine Mail!
+                  Ihr wollt uns auf eurer Feier/Konzert/Festival? Schreibt uns eine Mail!
                 </h3> <br />
                 <h4>
                   Besucht uns auch auf Youtube oder Soundcloud!
