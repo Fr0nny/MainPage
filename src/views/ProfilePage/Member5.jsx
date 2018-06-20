@@ -57,13 +57,7 @@ class Member5 extends React.Component {
                     <div className={classes.name}>
                       <h3 className={classes.title}>Chris</h3>
                       <h6>Schlagzeug</h6>
-                      <IconButton
-                        color="transparent"
-                        className={classes.margin5}
-                        href="https://www.facebook.com/christopher.fronober"
-                      >
-                        <i className={classes.socials + " fab fa-facebook"} />
-                      </IconButton>
+                      
                       <IconButton
                         color="transparent"
                         className={classes.margin5}

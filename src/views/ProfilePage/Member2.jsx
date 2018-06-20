@@ -17,19 +17,14 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/new/faces/marc.jpg";
+import profile from "assets/img/new/Member2/Profilbild.jpg";
 
-// import studio1 from "assets/img/examples/studio-1.jpg";
-import studio1 from "assets/img/new/stars.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+
+import image1 from "assets/img/new//Member2/Bild1.jpg";
+import image2 from "assets/img/new//Member2/Bild2.JPG";
+import image3 from "assets/img/new//Member2/Bild3.jpg";
+import image4 from "assets/img/new//Member2/Bild4.jpg";
+
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -71,24 +66,11 @@ class Member2 extends React.Component {
                       <IconButton
                         color="transparent"
                         className={classes.margin5}
-                        href="https://www.twitter.com"
+                        href="https://soundcloud.com/max-ex-moguntia"
                       >
-                        <i className={classes.socials + " fab fa-twitter"} />
+                        <i className={classes.socials + " fab fa-soundcloud"} />
                       </IconButton>
-                      <IconButton
-                        color="transparent"
-                        className={classes.margin5}
-                        href="https://www.instagram.com"
-                      >
-                        <i className={classes.socials + " fab fa-instagram"} />
-                      </IconButton>
-                      <IconButton
-                        color="transparent"
-                        className={classes.margin5}
-                        href="https://www.facebook.com"
-                      >
-                        <i className={classes.socials + " fab fa-facebook"} />
-                      </IconButton>
+                      
                     </div>
                   </div>
                 </GridItem>
@@ -107,70 +89,35 @@ class Member2 extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: "Proberaum",
+                        tabButton: "Bilder",
                         tabIcon: Camera,
                         tabContent: (
                           <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
+                            <GridItem xs={12} sm={12} md={6}>
                               <img
                                 alt="..."
-                                src={studio1}
+                                src={image1}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio2}
+                                src={image2}
                                 className={navImageClasses}
                               />
+                              
                             </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
+                            <GridItem xs={12} sm={12} md={6}>
                               <img
                                 alt="..."
-                                src={studio5}
+                                src={image4}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio4}
+                                src={image3}
                                 className={navImageClasses}
                               />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      },
-                      {
-                        tabButton: "Live",
-                        tabIcon: Photo,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work2}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work3}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work4}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work5}
-                                className={navImageClasses}
-                              />
+                              
                             </GridItem>
                           </GridContainer>
                         )
