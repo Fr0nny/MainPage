@@ -11,6 +11,7 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+import ScrollUpButton from "react-scroll-up-button";
 // import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
@@ -55,15 +56,10 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-
-
-          <SectionCarousel2 />
-          
+          <SectionCarousel2 /> 
           <SectionCarousel />
- 
         </div>
-      
-
+        <ScrollUpButton />
         <Footer />
       </div>
     );

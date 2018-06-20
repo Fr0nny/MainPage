@@ -13,7 +13,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
 
 // import Form from "views/LandingPage/Sections/Form.jsx";
-import ContactForm from "components/Form/ContactForm.jsx";
+// import ContactForm from "components/Form/ContactForm.jsx";
 
 class WorkSection extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class WorkSection extends React.Component {
               printer took a galley of type and scrambled it to make a type 
               specimen book.
             </h4>
-            <form method="POST" action="https://formspree.io/fronnythedev@gmail.com">
+            <form>
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
@@ -77,7 +77,7 @@ class WorkSection extends React.Component {
                 </GridContainer>
               </GridContainer>
             </form>
-            <ContactForm />
+        {/*    <ContactForm />*/}
           </GridItem>
         </GridContainer>
       </div>

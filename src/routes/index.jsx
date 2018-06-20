@@ -6,7 +6,7 @@ import Member2 from "views/ProfilePage/Member2.jsx";
 import Member3 from "views/ProfilePage/Member3.jsx";
 import Member4 from "views/ProfilePage/Member4.jsx";
 import Member5 from "views/ProfilePage/Member5.jsx";
-import LoginPage from "views/LoginPage/LoginPage.jsx";
+// import LoginPage from "views/LoginPage/LoginPage.jsx";
 import Datenschutz from "views/Datenschutz/Datenschutz.jsx";
 import Impressum from "views/Impressum/Impressum.jsx";
 
@@ -19,8 +19,8 @@ var indexRoutes = [
   { path: "/profile-page5", name: "Member5", component: Member5 },
   { path: "/datenschutz", name: "Datenschutz", component: Datenschutz },
   { path: "/impressum", name: "Impressum", component: Impressum },
-  { path: "/login-page", name: "LoginPage", component: LoginPage },
-  { path: "/", name: "Components", component: Components },
+  // { path: "/login-page", name: "LoginPage", component: LoginPage },
+  { path: "/", name: "Components", component: Components }
 
  
 

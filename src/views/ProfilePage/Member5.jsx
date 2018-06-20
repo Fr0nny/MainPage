@@ -84,16 +84,17 @@ class Member5 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.{" "}
+                  Dies Das Ananas! <br />
+                  Bandopa <br />
+                  <strong>Musikalische Einflüsse:</strong> Iron Maiden, Blind Guardian, Judas Priest, Manowar, Iced Earth....
+                  {" "}
                 </p>
               </div>
               <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                   <NavPills
                     alignCenter
-                    color="primary"
+                    color="success"
                     tabs={[
                       {
                         tabButton: "Bilder",
