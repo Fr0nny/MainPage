@@ -27,7 +27,7 @@ class SectionCarousel2 extends React.Component {
       <div className={classes.section} >
         <div className={classes.container} >
           <GridContainer>
-            <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+            <GridItem xs={12} sm={12} md={10} className={classes.marginAuto}>
               {/* <Card carousel>*/}
               <Card>
                 <Carousel {...settings}>
@@ -41,9 +41,9 @@ class SectionCarousel2 extends React.Component {
                 </Carousel>
 
                 <div className={classes.typo} >
-                  <h1 className={classes.title} >Bandbiografie</h1>
+                  <h1>Biografie</h1>
                   <h4 style={{textAlign: "justify"}}>
-                    Gegründet wurde die Band Triggered im Oktober 2016 von den drei
+                    <p>Gegründet wurde die Band Triggered im Oktober 2016 von den drei
                     Mainzer Studenten Max, Chris und Patrick. Zu Beginn als Akustik-Projekt
                     angedacht, wurde die Band um eine Sängerin erweitert.
                   <br /><br />
@@ -77,7 +77,7 @@ class SectionCarousel2 extends React.Component {
                     Und somit ist auch heute der Name Programm:
                     Triggered wollen etwas in ihrem Publikum auslösen. Die Musik soll mitreißen, das
                     Publikum anheizen und bei jedem Auftritt die Liebe und der Spaß an der Musik gefeiert
-                    werden.
+                    werden.</p>
                   </h4>
                 </div>
 
