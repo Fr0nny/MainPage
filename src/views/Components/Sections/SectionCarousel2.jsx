@@ -91,7 +91,7 @@ class SectionCarousel2 extends React.Component {
                   <h3>Bisherige Auftritte:</h3>
                   <ul>
                     <li>Kulturcafé (QKaff) - Mainz - 18.12.2017</li>
-                    <li>Alexander The Great (ATG) Support für "Crossplane" - Mainz - 17.03.2018</li>
+                    <li>Alexander The Great (ATG), Support für "Crossplane" - Mainz - 17.03.2018</li>
                     <li>BURR Open Air - Mörschied - 01.06.2018</li>
                   </ul>
                 </div>

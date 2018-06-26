@@ -95,7 +95,7 @@ class Member5 extends React.Component {
                         tabIcon: Camera,
                         tabContent: (
                           <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
+                            <GridItem xs={12} sm={12} md={6}>
                               <img
                                 alt="..."
                                 src={image1}
@@ -103,7 +103,7 @@ class Member5 extends React.Component {
                               />
                               
                             </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
+                            <GridItem xs={12} sm={12} md={6}>
                               <img
                                 alt="..."
                                 src={image3}

@@ -5,8 +5,7 @@ import classNames from "classnames";
 import withStyles from "material-ui/styles/withStyles";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
-import Photo from "@material-ui/icons/Photo";
-import Favorite from "@material-ui/icons/Favorite";
+
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -41,7 +40,7 @@ class Member2 extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="TRIGGERED-Max"
+          brand=""
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
