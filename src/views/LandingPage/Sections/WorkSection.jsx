@@ -22,7 +22,7 @@ class WorkSection extends React.Component {
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
         axios({
-            method: "POST", 
+            method: "", 
             url:"http://localhost:3000/Contact", 
             data: {
                 name: name,   
