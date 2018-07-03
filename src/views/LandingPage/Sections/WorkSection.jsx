@@ -53,7 +53,7 @@ class WorkSection extends React.Component {
             <h4 className={classes.description}>
               
             </h4>
-            <form method="POST" onSubmit={this.handleSubmit.bind(this)} action="">
+            <form method="" onSubmit={this.handleSubmit.bind(this)} action="">
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <CustomInput
