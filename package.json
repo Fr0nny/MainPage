@@ -15,7 +15,6 @@
     "node-sass-chokidar": "1.2.2",
     "nodemailer": "^4.6.7",
     "nodemon": "^1.17.5",
-    "npm-run-all": "4.1.2",
     "react": "16.3.1",
     "react-datetime": "2.14.0",
     "react-dom": "16.3.1",
@@ -36,5 +35,8 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
   }
 }
