@@ -15,6 +15,7 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import ScrollUpButton from "react-scroll-up-button";
 
 import profile from "assets/img/new/Member2/Profilbild.jpg";
 
@@ -49,7 +50,7 @@ class Member2 extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/new/max-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/new/Member2/max-bg.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -76,9 +77,8 @@ class Member2 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.{" "}
+                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  {" "}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -128,6 +128,7 @@ class Member2 extends React.Component {
             </div>
           </div>
         </div>
+        <ScrollUpButton />
         <Footer />
       </div>
     );

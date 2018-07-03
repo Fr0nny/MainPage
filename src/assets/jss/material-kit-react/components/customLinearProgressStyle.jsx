@@ -43,8 +43,11 @@ const customLinearProgressStyle = {
     backgroundColor: grayColor
   },
   primaryBackground: {
-    background: "rgba(156, 39, 176, 0.2)"
+    background: "rgba(53, 50, 53, 0.2)"
   },
+  //  primaryBackground: {
+  //   background: "rgba(156, 39, 176, 0.2)"
+  // },
   warningBackground: {
     background: "rgba(255, 152, 0, 0.2)"
   },

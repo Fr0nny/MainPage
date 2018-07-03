@@ -5,8 +5,7 @@ import classNames from "classnames";
 import withStyles from "material-ui/styles/withStyles";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
-import Photo from "@material-ui/icons/Photo";
-import Favorite from "@material-ui/icons/Favorite";
+
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -16,19 +15,16 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import ScrollUpButton from "react-scroll-up-button";
 
-import profile from "assets/img/new/faces/marc.jpg";
+import profile from "assets/img/new/Member3/placeholder.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import image1 from "assets/img/new/Member3/placeholder.jpg";
+import image2 from "assets/img/new/Member3/placeholder.jpg";
+import image3 from "assets/img/new/Member3/placeholder.jpg";
+import image4 from "assets/img/new/Member3/placeholder.jpg";
+
+
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -54,7 +50,7 @@ class Member3 extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/new/Member3/max-bg.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -91,10 +87,8 @@ class Member3 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  {" "}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -104,105 +98,31 @@ class Member3 extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: "Proberaum",
+                        tabButton: "Bilder",
                         tabIcon: Camera,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={studio1}
+                                src={image1}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio2}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={studio5}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio4}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      },
-                      {
-                        tabButton: "Live",
-                        tabIcon: Photo,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work2}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work3}
+                                src={image2}
                                 className={navImageClasses}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={work4}
+                                src={image3}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={work5}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      },
-                      {
-                        tabButton: "Favoriten",
-                        tabIcon: Favorite,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work4}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio3}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work2}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio1}
+                                src={image4}
                                 className={navImageClasses}
                               />
                             </GridItem>
@@ -216,6 +136,7 @@ class Member3 extends React.Component {
             </div>
           </div>
         </div>
+        <ScrollUpButton />
         <Footer />
       </div>
     );

@@ -46,7 +46,7 @@ class Contact extends React.Component {
                   Ihr wollt uns auf eurer Feier/Konzert/Festival? Schreibt uns eine Mail!
                 </h3> <br />
                 <h4>
-                  Besucht uns auch auf Youtube oder Soundcloud!
+                  Besucht uns auch auf YouTube oder Soundcloud!
                 </h4>
                 <br />
                 

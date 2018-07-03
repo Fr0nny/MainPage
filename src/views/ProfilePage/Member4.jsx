@@ -14,6 +14,7 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import ScrollUpButton from "react-scroll-up-button";
 
 import profile from "assets/img/new/Member4/bild2.jpg";
 
@@ -46,7 +47,7 @@ class Member4 extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/new/Member4/ilja-bg.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -72,10 +73,8 @@ class Member4 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  {" "}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -119,6 +118,7 @@ class Member4 extends React.Component {
             </div>
           </div>
         </div>
+        <ScrollUpButton />
         <Footer />
       </div>
     );

@@ -14,8 +14,9 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import ScrollUpButton from "react-scroll-up-button";
 
-import profile from "assets/img/new/faces/chris.jpg";
+import profile from "assets/img/new/Member5/chris.jpg";
 
 import image1 from "assets/img/new/Member5/Bild1.jpg";
 import image3 from "assets/img/new/Member5/Bild3.jpg";
@@ -44,7 +45,7 @@ class Member5 extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/new/stage_drums.jpg")} />
+        <Parallax filter image={require("assets/img/new/Member5/chris-bg.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -65,21 +66,19 @@ class Member5 extends React.Component {
                       >
                         <i className={classes.socials + " fab fa-twitter"} />
                       </IconButton>
-                      <IconButton
+                      {/*<IconButton
                         color="transparent"
                         className={classes.margin5}
                         href="https://discord.com"
                       >
-                        <i className={classes.socials + " fab fa-discord"} />
-                      </IconButton>
+                        <i className={classes.socials + " fas fa-envelope"} />
+                      </IconButton>*/}
                     </div>
                   </div>
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  Dies Das Ananas! <br />
-                  Bandopa <br />
                   <strong>Musikalische Einflüsse:</strong> Iron Maiden, Blind Guardian, Judas Priest, Manowar, Iced Earth....
                   {" "}
                 </p>
@@ -88,7 +87,7 @@ class Member5 extends React.Component {
                 <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                   <NavPills
                     alignCenter
-                    color="success"
+                    color="primary"
                     tabs={[
                       {
                         tabButton: "Bilder",
@@ -97,7 +96,7 @@ class Member5 extends React.Component {
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={6}>
                               <img
-                                alt="..."
+                                alt="image1"
                                 src={image1}
                                 className={navImageClasses}
                               />
@@ -105,7 +104,7 @@ class Member5 extends React.Component {
                             </GridItem>
                             <GridItem xs={12} sm={12} md={6}>
                               <img
-                                alt="..."
+                                alt="image3"
                                 src={image3}
                                 className={navImageClasses}
                               />
@@ -120,6 +119,7 @@ class Member5 extends React.Component {
             </div>
           </div>
         </div>
+        <ScrollUpButton />
         <Footer />
       </div>
     );

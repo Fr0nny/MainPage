@@ -4,16 +4,16 @@ import Carousel from "react-slick";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
 // @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
+// import LocationOn from "@material-ui/icons/LocationOn";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/new/Triggered_Gruppe2.jpg";
-import image2 from "assets/img/new/Triggered_Gruppe2sw.jpg";
-import image3 from "assets/img/new/Foto4_Triggered.JPG";
-import image4 from "assets/img/new/Triggered_Gruppe3.jpg";
+import image1 from "assets/img/new/Frontpage/Triggered_Gruppe2sw.jpg";
+import image2 from "assets/img/new/Frontpage/Foto4_Triggered.JPG";
+import image3 from "assets/img/new/Frontpage/Triggered_Gruppe3.jpg";
+
 
 class SectionCarousel extends React.Component {
   render() {
@@ -46,11 +46,11 @@ class SectionCarousel extends React.Component {
                       alt="Second slide"
                       className="slick-image"
                     />
-                    <div className="slick-caption">
+                    {/*<div className="slick-caption">
                       <h4>
                         <LocationOn className="slick-icons" />Random Text?
                       </h4>
-                    </div>
+                    </div>*/}
                   </div>
                   <div>
                     <img
@@ -58,20 +58,14 @@ class SectionCarousel extends React.Component {
                       alt="Third slide"
                       className="slick-image"
                     />
-                    <div className="slick-caption">
+                    {/*<div className="slick-caption">
                       <h4>
                         <LocationOn className="slick-icons" />Mit Position oder
                         random Text
                       </h4>
-                    </div>
+                    </div>*/}
                   </div>
-                  <div>
-                    <img
-                      src={image4}
-                      alt="forth slide"
-                      className="slick-image"
-                    />
-                  </div>
+                  
                 </Carousel>
               </Card>
             </GridItem>

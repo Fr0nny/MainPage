@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from "react";
 // react components for routing our app without refresh
 import { Link } from "react-router-dom";
@@ -78,7 +77,7 @@ function HeaderLinks({ ...props }) {
       
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-facebook"
+          id="facebook-tooltip"
           title="Folgt uns auf Facebook"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
@@ -95,7 +94,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
+          id="soundcloud-tooltip"
           title="Folgt uns auf Soundcloud"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
@@ -112,7 +111,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
+          id="youtube-tooltip"
           title="Folgt uns auf Youtube"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}

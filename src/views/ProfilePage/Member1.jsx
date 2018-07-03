@@ -14,6 +14,7 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import ScrollUpButton from "react-scroll-up-button";
 
 import profile from "assets/img/new/Member1/Profilbild.jpg";
 
@@ -47,7 +48,7 @@ class Member1 extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/new/lotte-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/new/Member1/lotte-bg.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -80,10 +81,8 @@ class Member1 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  It is a long established fact that a reader will be distracted by the readable 
-                  content of a page when looking at its layout. The point of using Lorem Ipsum is 
-                  that it has a more-or-less normal distribution of letters, as opposed to using 
-                  'Content here, content here', making it look like readable English.{" "}
+                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  {" "}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -134,6 +133,7 @@ class Member1 extends React.Component {
             </div>
           </div>
         </div>
+        <ScrollUpButton />
         <Footer />
       </div>
     );
