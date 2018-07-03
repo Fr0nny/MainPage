@@ -22,7 +22,7 @@ class WorkSection extends React.Component {
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
         axios({
-            method: "", 
+            method: "POST", 
             url:"http://localhost:3000/Contact", 
             data: {
                 name: name,   
@@ -53,7 +53,7 @@ class WorkSection extends React.Component {
             <h4 className={classes.description}>
               
             </h4>
-            <form method="" onSubmit={this.handleSubmit.bind(this)} action="">
+            <form method="POST" onSubmit={this.handleSubmit.bind(this)} action="">
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <CustomInput
