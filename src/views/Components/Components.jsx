@@ -16,18 +16,20 @@ import ScrollUpButton from "react-scroll-up-button";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Modal from "components/Modal/Modal.jsx";
 // import CardNew from "components/Card/CardNew.jsx";
 // import Card from "components/Card/Card.jsx";
 
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import SectionCarousel2 from "./Sections/SectionCarousel2.jsx";
 
+
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
-    return (
+    return ( 
       <div>
         <Header
           brand="TRIGGERED"
@@ -50,6 +52,8 @@ class Components extends React.Component {
                     Rock/Metal Cover-Band aus Mainz
                   </h3>
                 </div>
+                <br /><br />
+                <Modal />
               </GridItem>
             </GridContainer>
           </div>

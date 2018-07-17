@@ -59,7 +59,7 @@ class Member1 extends React.Component {
                       <img src={profile} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 className={classes.title}>Charlotte</h3>
+                      <h3 className={classes.title}>Charlotte "Lotti"</h3>
                       <h6>Gesang</h6>
                       <IconButton
                         color="transparent"
@@ -81,7 +81,7 @@ class Member1 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  <strong>Musikalische Einflüsse:</strong> System of a Down, Blind Guardian, Queen, Nightwish, ...
                   {" "}
                 </p>
               </div>

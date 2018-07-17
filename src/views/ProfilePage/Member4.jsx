@@ -73,7 +73,7 @@ class Member4 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  <strong>Musikalische Einflüsse:</strong> Linkin Park, Rise Against, Killswitch Engage, Blink-182, Green Day, Fatherson, ...
                   {" "}
                 </p>
               </div>

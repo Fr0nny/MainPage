@@ -1,22 +1,4 @@
-/*!
 
- =========================================================
- * Material Kit React - v1.0.0 based on Material Kit - v2.0.2
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/material-kit-react
- * Copyright 2018 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/material-kit-react/blob/master/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-
-// ##############################
-// // // Variables - Styles that are used on more than one component
-// #############################
 
 const drawerWidth = 260;
 
@@ -64,7 +46,8 @@ const card = {
 };
 
 const defaultFont = {
-  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+  fontFamily: '"Roboto", "Arial", sans-serif',
+  src: "url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype')",
   fontWeight: "300",
   lineHeight: "1.5em"
 };
@@ -166,7 +149,8 @@ const title = {
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",
-  fontFamily: `"Roboto Slab", "Times New Roman", serif`
+  fontFamily: `"Roboto Slab", "Times New Roman", serif`,
+  src: "url('../fonts/Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype')",
 };
 
 const cardTitle = {

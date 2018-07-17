@@ -41,7 +41,7 @@ class Member3 extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="ProfilePatrick"
+          brand=""
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{

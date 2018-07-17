@@ -23,7 +23,7 @@ import profile from "assets/img/new/Member2/Profilbild.jpg";
 import image1 from "assets/img/new//Member2/Bild1.jpg";
 import image2 from "assets/img/new//Member2/Bild2.JPG";
 import image3 from "assets/img/new//Member2/Bild3.jpg";
-import image4 from "assets/img/new//Member2/Bild4.jpg";
+// import image4 from "assets/img/new//Member2/Bild4.jpg";
 
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
@@ -77,7 +77,7 @@ class Member2 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  <strong>Musikalische Einflüsse:</strong> Bands....
+                  <strong>Musikalische Einflüsse:</strong> Hatebreed, Slipknot, Manowar, Rammstein, Linkin Park, Amon Amarth, ...
                   {" "}
                 </p>
               </div>
@@ -106,11 +106,7 @@ class Member2 extends React.Component {
                               
                             </GridItem>
                             <GridItem xs={12} sm={12} md={6}>
-                              <img
-                                alt="..."
-                                src={image4}
-                                className={navImageClasses}
-                              />
+                             
                               <img
                                 alt="..."
                                 src={image3}

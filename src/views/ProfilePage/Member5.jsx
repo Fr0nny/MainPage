@@ -20,6 +20,7 @@ import profile from "assets/img/new/Member5/chris.jpg";
 
 import image1 from "assets/img/new/Member5/Bild1.jpg";
 import image3 from "assets/img/new/Member5/Bild3.jpg";
+import image5 from "assets/img/new/Member5/Bild5.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -36,7 +37,7 @@ class Member5 extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="TRIGGERED - Chris"
+          brand=""
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -45,7 +46,7 @@ class Member5 extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/new/Member5/chris-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/new/Member5/chris-bg.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -79,7 +80,7 @@ class Member5 extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  <strong>Musikalische Einflüsse:</strong> Iron Maiden, Blind Guardian, Judas Priest, Manowar, Iced Earth....
+                  <strong>Musikalische Einflüsse:</strong> Iron Maiden, Blind Guardian, Judas Priest, Manowar, Iced Earth, ...
                   {" "}
                 </p>
               </div>
@@ -106,6 +107,11 @@ class Member5 extends React.Component {
                               <img
                                 alt="image3"
                                 src={image3}
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="image5"
+                                src={image5}
                                 className={navImageClasses}
                               />
                             </GridItem>

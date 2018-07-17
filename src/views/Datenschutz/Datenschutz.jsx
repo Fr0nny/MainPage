@@ -105,3 +105,19 @@ class Datenschutz extends React.Component {
 }
 
 export default withStyles(imp_dat_style)(Datenschutz);
+
+
+
+
+// Webfonts von Google
+
+// Wir bedienen uns auf Grundlage unserer berechtigten Interessen (Betrieb und Optimierung unserer Webseiten)
+//  im Sinne des Artikel 6 Absatz 1 Buchstabe f DSGVO des Web-Schriftarten-Dienstes „Google Webfonts“,
+//   angeboten von der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“).
+//    Bei jedem Besuch dieser Website werden Dateien von einem Google-Server geladen, um den Text in 
+//    einer bestimmten Schriftart anzuzeigen. Ihre IP-Adresse kann auf einen Server des Anbieters übertragen 
+//    und im gewöhnlichen Serverprotokoll gespeichert werden. Die weitere Verarbeitung dieser Informationen 
+//    liegt in der Verantwortung von Google. Informationen zu Bedingungen und Einstellungen finden Sie in 
+//    den unter https://www.google.com/policies/privacy/ niedergelegten Datenschutzbestimmungen von Google.
+
+   
