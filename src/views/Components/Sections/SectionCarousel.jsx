@@ -10,9 +10,9 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/new/Frontpage/Triggered_Gruppe2sw.jpg";
+import image1 from "assets/img/new/Frontpage/Triggered_Gruppe2sw_kl.jpg";
 import image2 from "assets/img/new/Frontpage/Foto4_Triggered.JPG";
-import image3 from "assets/img/new/Frontpage/BurrOA2.png";
+import image3 from "assets/img/new/Frontpage/BurrOA2_kl.png";
 import image4 from "assets/img/new/Frontpage/Bandlogo_v2.png";
 
 
